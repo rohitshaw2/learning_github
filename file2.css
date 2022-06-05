@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    background: url(images.jpg);
+}
+.page{
+    width:300px;
+    padding:30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:lightseagreen;
+    text-align:center;
+}
+.page h1{
+    color:blue;
+    text-transform:uppercase;
+    font-weight:700;
+}
+.page input[type="text"],.page input[type="password"]
+{
+    border:0;
+    background-color: white;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:3px solid rgb(0, 83, 102);
+    padding:14px 10px;
+    width:220px;
+    outline:auto;
+    border-radius:25px;
+    color:aquamarine;
+    transition:0.25px;
+}
+.page input[type="text"]:focus,page input[type="password"]:focus{
+    width:270px;
+    border-color:gold;
+}
+.page input[type="submit"]{
+    border:0;
+    background-color: aquamarine;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:3px solid rgb(218, 193, 3);
+    padding:14px 35px;
+    width:220px;
+    outline:auto;
+    border-radius:25px;
+    color:rgb(39, 43, 176);
+    transition:0.25px;
+    cursor:pointer;
+}
+.page input[type="submit"]:hover{
+    background:greenyellow;
+}
